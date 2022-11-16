@@ -1,0 +1,18 @@
+1. remeber you can use CONTINUE to break over one interation of a loop.
+2. To find out how many elements an array has, you have to divide the size of the array by the size of the data type it contains:
+3. STRUCTURES ==groups related variables into one place. use STRUCT {} and declare members. you can set the variables to multiple as well..
+4. REFERENCES A reference variable is a "reference" to an existing variable, and it is created with the '&' operator.
+5. MEMORY ADDRESS, the '&' operator can be used to COUT << &VAR. this will output where the var is stored on hardware.
+6. REFERENCES and POINTERS   are important in C++, because they give you the ability to manipulate the data in the computer's memory - which can reduce the code and improve the performance.
+These two features are one of the things that make C++ stand out from other programming languages, like Python and Java.
+
+7. POINTER: a variable that stores the memory address as its value. USES THE *. EX... //string* ptr = &food;//  
+8. DEFREFERENCE: basically you can use the * to not only declare a pointer, but to also get the output value.
+9.You can also change the pointer's value. But note that this will also change the value of the original variable:
+
+FUNCTIONS.......
+
+1. VOID before declaring you function means there is no return value. otherswise speicify the data type to be returned.
+2. PARAMETERS. must declare data type to pass params.
+3. DEFAULT PARAMETERS: declare a  value, by using the equals sign (=) when declaring the function. it will default to that value if no params are present when funciton called.
+4.
