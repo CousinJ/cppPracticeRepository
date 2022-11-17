@@ -15,4 +15,39 @@ FUNCTIONS.......
 1. VOID before declaring you function means there is no return value. otherswise speicify the data type to be returned.
 2. PARAMETERS. must declare data type to pass params.
 3. DEFAULT PARAMETERS: declare a  value, by using the equals sign (=) when declaring the function. it will default to that value if no params are present when funciton called.
-4.
+4. mind recursion...
+5. FUNCTION OVERLOADING: ???
+
+
+CLASSES......
+1. you must DEFINE the class ( very similar to a struct) then instantiate it with 'CLASSNAME varname;'. remeber the public specifier.
+2. METHODS = important. you can use the inside/ outside way to declare them. 
+3. a CONSTRUCTOR in C++ is a special method that is automatically called when an object of a class is instantiated.
+To create a constructor, use the same name as the class, followed by parentheses (params, params) 
+
+4. scope resolution operator === :: 
+5. Note: The constructor has the same name as the class, it is always public, and it does not have any return value.
+6. CONSTRUCTOR PARAMS. these are very useful when you want to set attributes of an instantiated class to the params then are sent in. 
+7. CONSTRUCTORS can also be defined outside the class too. 
+8. ACCESS SPECIFIERS. these can be PRIVATE, PUBLIC or PROTECTED.  
+                PUBLIC:  members can be accessed from outside class. 
+                PRIVATE: members CANNOT be accessed from outside class. (this is default)
+                PROTECTED: members cannot be accessed to the  class however they can be accessed in inherited classes.
+9.ENCAPSULATION means keeping sensitive data from users. import with access specifers. increased data security this way. (note how similar the example is to useState)
+10.INHERITANCE: derived classes and  base class. essentially child and parent. TO INHERIT from a class USE THE ':' operator.
+11.MULTILEVEL INHERITANCE: this is the concept of grandchildren. you can carry the class further and further this way.
+12. MULITPLE INHERITANCE: this means a derived class from more than on base or parent class. you use the : operator and , to sperate base classes when instantiate the class.
+13. POLYMORPHISM: this is the idea that many classes are derived from a the same class. BUT more specifically that the same methods of the derived classes have different functionality.
+
+14.FSTREAM library lets us work with files.
+        ofstream: create and writes files.
+        ifstream: reads from files.
+        fstream: a combo of ofstream and ifstream
+so you can create the file then you can write to that file then close it of course. with EXAMPLEFILE.close() method. ram is precious.
+15. PRO TIP: Use a while loop together with the getline()  (check back to practice1.cpp for getlilne work.) function to read the file line by line.
+
+16. EXCEPTIONS: basically errors. 
+        TRY: defines a block of code to be tested for errors while running.
+        THROW: throws an exception when a problem is found. you can make custom errors this way.
+        CATCH: defines another block of code to be executed if an error occurs in the try block.
+note that try and catch are a duo and throw is not.

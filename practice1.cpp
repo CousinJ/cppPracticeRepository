@@ -22,7 +22,7 @@ int practiceGetLine()
     string fullName;
     string answer;
     cout << "type your full name: ";
-    getline(cin, fullName);
+    // getline(cin, fullName);  for WHATEVER REASON...this function does not work anymore. I have no idea why because it did before and no changes were made.
     cout << "so you are telling me your name is " << fullName << "?\n";
     cout << "yes(type \"Y\"), no(type \"N\")";
     cin >> answer;
